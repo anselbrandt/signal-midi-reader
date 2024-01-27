@@ -1,0 +1,25 @@
+{
+  "name": "midi-wrangler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "debug": "ts-node src/debug.ts",
+    "dev": "vitest",
+    "start": "ts-node src/index.ts",
+    "test": "vitest run",
+    "clean": "rm -rf errors && rm -rf json && rm -rf out"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "serializr": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.5",
+    "assert": "^2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
